@@ -1,5 +1,8 @@
-@import "_variables";
-@import "_mixin";
+@import "partials/_variables";
+@import "partials/_mixin";
+
+@include google-font("Alegreya+Sans");
+@include google-font("Titillium+Web");
 
 @include fancy-links;
 
