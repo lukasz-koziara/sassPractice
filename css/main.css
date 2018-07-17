@@ -39,14 +39,23 @@ a:hover {
   color: #ca510d;
 }
 
-.warning-button {
+.warning-button, .cta-button, .super-cta-button {
   background-color: orange;
   color: #fff;
   padding: 8px 12px;
 }
 
-.warning-button:hover {
+.warning-button:hover, .cta-button:hover, .super-cta-button:hover {
   background-color: #ffc04d;
+}
+
+.cta-button, .super-cta-button {
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.super-cta-button {
+  font-size: 1.25em;
 }
 
 * html body {
@@ -116,4 +125,13 @@ a:hover {
   clear: both;
   background-color: #ccf962;
   height: 90px;
+}
+
+.error, .cta-button, .super-cta-button, .critical-error {
+  color: red;
+}
+
+.critical-error {
+  bottom: 1px solid red;
+  font-weight: bold;
 }
