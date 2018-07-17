@@ -33,6 +33,10 @@
 @mixin warning {
     background-color: orange;
     color: #fff;
+
+    &:hover {
+      background-color: lighten(orange, 15%)
+    }
   }
   
 @mixin box-shadow($shadows...){
