@@ -1,6 +1,6 @@
-@import "partials/_functions";
-@import "partials/_variables";
-@import "partials/_mixin";
+@import "partials/functions";
+@import "partials/variables";
+@import "partials/mixin";
 
 @for $i from 1 through 6 {
   .col-#{$i} {
