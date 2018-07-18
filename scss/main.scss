@@ -7,12 +7,20 @@
 
 @include fancy-links;
 
+
+$contrast: normal;
 body {
 
   font-family: $text-font;
-  color: $text-color;
   font-size: em(18px);
-
+  @if $contrast == high {
+   color: #000;
+  } @else if $contrast == low {
+    color: #999;
+  } @else {
+    color: $text-color;
+  }
+  
   @include large-screens {
     font-size: 125%
   }

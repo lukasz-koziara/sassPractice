@@ -7,8 +7,8 @@ a {
 
 body {
   font-family: "Alegreya Sans", Arial, sans-serif;
-  color: #222222;
   font-size: 1.125em;
+  color: #222222;
 }
 
 @media only screen and (max-width: 960px) {
