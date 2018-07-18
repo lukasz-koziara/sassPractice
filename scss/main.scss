@@ -2,11 +2,6 @@
 @import "partials/_variables";
 @import "partials/_mixin";
 
-@include google-font("Alegreya+Sans");
-@include google-font("Titillium+Web");
-
-@include fancy-links;
-
 @for $i from 1 through 6 {
   .col-#{$i} {
     width: $i * 2em;
@@ -26,6 +21,23 @@ $font-sizes: (tiny: 8px, small: 11px, medium: 13px, large: 18px);
     font-size: $size;
   }
 }
+
+$j: 8;
+@while $j >= 2 {
+  .picture-#{$j} {
+    width: $j * 10%;
+  }
+  $j: $j - 2;
+}
+
+ 
+
+@include google-font("Alegreya+Sans");
+@include google-font("Titillium+Web");
+
+@include fancy-links;
+
+
 body {
   font-family: $text-font;
   font-size: em(18px);
