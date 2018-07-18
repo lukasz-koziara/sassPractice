@@ -1,10 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans);
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web);
-a {
-  font-style: italic;
-  text-decoration: none;
-}
-
 .col-1 {
   width: 2em;
 }
@@ -55,6 +50,27 @@ a {
 
 .large {
   font-size: 18px;
+}
+
+.picture-8 {
+  width: 80%;
+}
+
+.picture-6 {
+  width: 60%;
+}
+
+.picture-4 {
+  width: 40%;
+}
+
+.picture-2 {
+  width: 20%;
+}
+
+a {
+  font-style: italic;
+  text-decoration: none;
 }
 
 body {
