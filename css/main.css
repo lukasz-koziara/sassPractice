@@ -8,8 +8,8 @@ a {
 body {
   font-family: "Alegreya Sans", Arial, sans-serif;
   font-size: 1.125em;
-  color: #000000;
-  background-color: #ffffff;
+  color: #fff;
+  background-color: #22222a;
 }
 
 @media only screen and (max-width: 960px) {
@@ -20,7 +20,7 @@ body {
 
 h1, h2, h3, h4 {
   font-family: "Titillium Web", Georgia, serif;
-  color: #000000;
+  color: #fff;
 }
 
 h2 {
@@ -33,11 +33,11 @@ p {
 }
 
 a {
-  color: #d26741;
+  color: #c24721;
 }
 
 a:hover {
-  color: #a04626;
+  color: #812f16;
 }
 
 .sub-title {
@@ -74,11 +74,11 @@ a:hover {
 #header {
   border-radius: 12px;
   border: 1px solid #fff;
-  box-shadow: 2px 0px 4px #999, 1px 1px 6px #d26741;
-  -moz-box-shadow: 2px 0px 4px #999, 1px 1px 6px #d26741;
-  -webkit-box-shadow: 2px 0px 4px #999, 1px 1px 6px #d26741;
+  box-shadow: 2px 0px 4px #999, 1px 1px 6px #c24721;
+  -moz-box-shadow: 2px 0px 4px #999, 1px 1px 6px #c24721;
+  -webkit-box-shadow: 2px 0px 4px #999, 1px 1px 6px #c24721;
   height: 60px;
-  background-color: #372a27;
+  background-color: #42424a;
 }
 
 #main-menu li {
@@ -132,8 +132,9 @@ a:hover {
 
 #footer {
   clear: both;
-  background-color: #b9da63;
+  background-color: #698932;
   height: 90px;
+  border-top: 5px solid #3e511e;
 }
 
 .error, .cta-button, .super-cta-button, .critical-error {

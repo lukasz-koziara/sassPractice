@@ -7,10 +7,7 @@
 
 @include fancy-links;
 
-
-
 body {
-
   font-family: $text-font;
   font-size: em(18px);
   color: $text-color;
@@ -36,6 +33,10 @@ p {
 
 a {
   color: $link-color;
+
+  @include blue-beans {
+    color: #8779ff;
+  }
 
   &:hover {
     color: darken($link-color, 15%);
@@ -141,6 +142,10 @@ a {
  clear: both;
  background-color: $ternary-color;
  height: $footer-height;
+
+ @include rogers-rovers {
+   border-top: 5px solid darken($ternary-color, 15%)
+ }
 }
 
 .error {
