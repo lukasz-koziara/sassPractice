@@ -29,6 +29,34 @@ a {
   width: 12em;
 }
 
+.bob-banker-profile {
+  background-image: url("/img/bob-banker.png");
+}
+
+.sandra-smith-profile {
+  background-image: url("/img/sandra-smith.png");
+}
+
+.patty-plume-profile {
+  background-image: url("/img/patty-plume.png");
+}
+
+.tiny {
+  font-size: 8px;
+}
+
+.small {
+  font-size: 11px;
+}
+
+.medium {
+  font-size: 13px;
+}
+
+.large {
+  font-size: 18px;
+}
+
 body {
   font-family: "Alegreya Sans", Arial, sans-serif;
   font-size: 1.125em;
